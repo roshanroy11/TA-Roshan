@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e74fda-62ee-4fa9-95fb-325c5c2ade1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GiantSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Joker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ogre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zombie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -85,12 +91,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674262603960</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot; change&quot;">
+      <created>1674937102442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674937102442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot; try-changes&quot;" />
     <MESSAGE value="&quot; changes&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot; changes&quot;" />
+    <MESSAGE value="&quot; change&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot; change&quot;" />
   </component>
 </project>
