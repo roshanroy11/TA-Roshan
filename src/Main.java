@@ -8,12 +8,12 @@ public class Main {
         Pillow softPillow = new Pillow();
         Mace bigMace = new Mace();
         //Enemies:
-        Ogre greenOgre = new Ogre();
-        Ogre redOgre = new Ogre();
-        Zombie slowZombie = new Zombie();
-        Zombie fastZombie = new Zombie();
-        Dog spotDog = new Dog();
-        Joker smartClown = new Joker();
+        Ogre greenOgre = new Ogre("Green");
+        Ogre redOgre = new Ogre("Red");
+        Zombie slowZombie = new Zombie(5);
+        Zombie fastZombie = new Zombie(10);
+        Dog spotDog = new Dog(15);
+        Joker smartClown = new Joker(30);
 
     }
 }

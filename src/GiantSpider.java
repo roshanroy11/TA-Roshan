@@ -1,5 +1,7 @@
 public class GiantSpider extends Enemy{
-    public GiantSpider(){
+    private int size;
+    public GiantSpider(int size){
         super("GiantSpider",10,2);
+        this.size = size;
     }
 }
