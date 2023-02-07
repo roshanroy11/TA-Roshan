@@ -1,7 +1,8 @@
 public class Joker extends Enemy{
-    private int acid_Spray;
-    public Joker(int acid_Spray){
+
+    private Spray acid_spray;
+    public Joker(Spray acid_spray){
         super("Joker",40,25);
-        this.acid_Spray = acid_Spray;
+        this.acid_spray = acid_spray;
     }
 }

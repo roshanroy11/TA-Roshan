@@ -1,6 +1,7 @@
 public class Zombie extends Enemy{
-    private int speed;
-    public Zombie(int speed){
+
+    private Speed speed;
+    public Zombie(Speed speed){
         super("Zombie",20,15);
         this.speed = speed;
     }

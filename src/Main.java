@@ -8,12 +8,12 @@ public class Main {
         Pillow softPillow = new Pillow();
         Mace bigMace = new Mace();
         //Enemies:
-        Ogre greenOgre = new Ogre("Green");
-        Ogre redOgre = new Ogre("Red");
-        Zombie slowZombie = new Zombie(5);
-        Zombie fastZombie = new Zombie(10);
-        Dog spotDog = new Dog(15);
-        Joker smartClown = new Joker(30);
-
+        Ogre greenOgre = new Ogre(Skin.Green);
+        Ogre redOgre = new Ogre(Skin.Red);
+        Zombie slowZombie = new Zombie(Speed.Slow);
+        Zombie fastZombie = new Zombie(Speed.Fast);
+        Dog spotDog = new Dog(Spotting.Smelling);
+        Joker smartClown1 = new Joker(Spray.acid_spray);
+        Joker smartClown2 = new Joker(Spray.poison_spray);
     }
 }
