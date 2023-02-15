@@ -15,5 +15,13 @@ public class Main {
         Dog spotDog = new Dog(Spotting.Smelling);
         Joker smartClown1 = new Joker(Spray.acid_spray);
         Joker smartClown2 = new Joker(Spray.poison_spray);
+        //Actions
+        ViewInventory viewing_inventory = new ViewInventory();
+        Flee flee = new Flee();
+        MoveNorth moving_north = new MoveNorth();
+        MoveSouth moving_south = new MoveSouth();
+        MoveEast moving_east = new MoveEast();
+        MoveWest moving_west = new MoveWest();
+        Jump jumping = new Jump();
     }
 }
