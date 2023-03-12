@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        World world = new World();
+        world.load_tiles();
+
         Item i1 = new Item("item name", "item desc", 10);
         Weapon w1 = new Weapon("weapon name", "weapon description", 10,20);
         Gold goldBar = new Gold(40);
