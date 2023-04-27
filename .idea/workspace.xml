@@ -5,11 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e74fda-62ee-4fa9-95fb-325c5c2ade1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MapTile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Attack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BoggartsRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dagger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dementors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DementorsRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Emotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmptyAzkabanRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EnemyRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindInvisibilityCloakRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindShieldRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindSwordRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FindWandRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Goblins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GoblinsRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InvisibilityCloak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeaveAzkabanRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LootRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Magic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StartingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreasureRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Voldemort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VoldemortRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Werewolves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WerewolvesRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cust_Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boggarts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fly_Fast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GiantSpider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Joker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveEast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlyEast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveNorth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlyNorth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveSouth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlySouth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveWest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlyWest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ogre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pillow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shield.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Speed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zombie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +95,14 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game" />
+      <module name="TA-IST242" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Item" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Item" />
       <module name="TA-IST242" />
@@ -58,16 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="TA-IST242" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.Item" />
       </list>
     </recent_temporary>

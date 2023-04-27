@@ -1,7 +1,8 @@
-import java.util.*;
+import java.awt.Point;
+import java.util.ArrayList;
 public class MapTile {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     public MapTile(int x, int y) {
         this.x = x;
@@ -33,22 +34,27 @@ public class MapTile {
         return true;
     }
 
-    public String intro_text() {
-        throw new UnsupportedOperationException();
-    }
-
     public ArrayList<Action> adjacent_moves() {
         ArrayList<Action> moves = new ArrayList<Action>();
-        {
-            if (World.title_exists(x, y + 1) != null)
-                moves.add(new MoveEast()); // moves east
-            if (World.title_exists(x, y - 1) != null)
-                moves.add(new MoveWest()); // moves west
-            if (World.title_exists(x - 1, y) != null)
-                moves.add(new MoveNorth()); // moves north
-            if (World.title_exists(x - 1, y) != null)
-                moves.add(new MoveSouth()); // moves south
-        }
+        if (World.title_exists(x, y + 1) != null)
+            moves.add(new FlyEast()); // moves east
+        if (World.title_exists(x, y - 1) != null)
+            moves.add(new FlyWest()); // moves west
+        if (World.title_exists(x - 1, y) != null)
+            moves.add(new FlyNorth()); // moves north
+        if (World.title_exists(x + 1, y) != null)
+            moves.add(new FlySouth()); // moves south
         return moves;
+    }
+    public ArrayList<Action> available_actions() {
+        ArrayList<Action> move = new ArrayList<>();
+        move = adjacent_moves();
+        move.add(new ViewInventory());
+        return move;
+    }
+    public String intro_text(){
+        return null;
+    }
+    public void modify_player(Player player){
     }
 }

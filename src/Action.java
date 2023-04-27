@@ -1,10 +1,12 @@
+import java.awt.*;
+
 public class Action {
     private Method method;
     private char hotkey;
     public char getHotkey() {return hotkey;}
     public void setHotkey(char hotkey) {this.hotkey = hotkey;}
     private String name;
-    public String getName(String name) {return name;}
+    public String getName() {return name;}
     public void setName(String name) {this.name = name;}
     public Enemy kwargs;
 

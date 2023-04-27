@@ -1,5 +1,6 @@
- 	 	 	 	LeaveCaveRoom
-			CyclopsRoom	EmptyCavePath
- 	 	 	EmptyCavePath	  
- 	 	 	TreasureRoom	 
-OgreRoom	TreasureRoom	StartingRoom	TreasureRoom	FindDaggerRoom
+ 	 	 	 	LeaveAzkabanRoom
+TreasureRoom		VoldemortRoom		EmptyAzkabanRoom
+GoblinsRoom	EmptyAzkabanRoom	FindWandRoom	TreasureRoom	Enemy.BoggartsRoom
+EmptyAzkabanRoom	FindShieldRoom	TreasureRoom	WerewolvesRoom	TreasureRoom
+Enemy.BoggartsRoom	TreasureRoom	StartingRoom	TreasureRoom	FindInvisibilityCloakRoom
+TreasureRoom	EmptyAzkabanRoom	DementorsRoom	EmptyAzkabanRoom	EmptyAzkabanRoom
