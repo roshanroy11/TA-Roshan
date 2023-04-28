@@ -169,6 +169,7 @@ public class Player implements Comparable<Player> {
 
     public void doFlee(MapTile mp)
     {
+        System.out.println("You got panicked and like a loser chose to option to fly quicly to another room..");
         ArrayList<Action> available_moves = mp.adjacent_moves();
         Random rn=new Random();
         int random=rn.nextInt(available_moves.size());
@@ -205,29 +206,31 @@ public class Player implements Comparable<Player> {
             if(action instanceof FlyEast)
             {
                 move_east();
-            }else if (action instanceof FlyWest)
+            }
+            else if (action instanceof FlyWest)
             {
                 move_west();
-            }else if (action instanceof FlyNorth)
+            }
+            else if (action instanceof FlyNorth)
             {
                 move_north();
-            }else if (action instanceof FlySouth)
+            }
+            else if (action instanceof FlySouth)
             {
                 move_south();
-            }else if (action instanceof ViewInventory)
+            }
+            else if (action instanceof ViewInventory)
             {
                 print_inventory();
-            }else if (action instanceof Fly_Fast)
+            }
+            else if (action instanceof Fly_Fast)
             {
                 doFlee(mp);
             }
-
+            else if (action instanceof Attack)
+            {
+                attackEnemy(kwargs);
+            }
         }
-        else if (action instanceof Attack)
-        {
-            attackEnemy(kwargs);
-        }
-
     }
-
 }

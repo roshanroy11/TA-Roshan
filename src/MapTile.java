@@ -49,6 +49,7 @@ public class MapTile {
     public ArrayList<Action> available_actions() {
         ArrayList<Action> move = new ArrayList<>();
         move = adjacent_moves();
+        move.add(new Fly_Fast());
         move.add(new ViewInventory());
         return move;
     }
