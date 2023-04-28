@@ -2,6 +2,7 @@ public class FindWandRoom extends LootRoom{
     private Wand wand;
     public FindWandRoom(int x,int y,Wand wand){
         super(x, y,wand);
+        this.wand = wand;
     }
 
     public String intro_text(){

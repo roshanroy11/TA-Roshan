@@ -1,6 +1,6 @@
- 	 	 	 	LeaveAzkabanRoom
-TreasureRoom		VoldemortRoom		EmptyAzkabanRoom
-GoblinsRoom	EmptyAzkabanRoom	FindWandRoom	TreasureRoom	Enemy.BoggartsRoom
+EmptyAzkabanRoom	TreasureRoom	LeaveAzkabanRoom	EmptyAzkabanRoom	TreasureRoom
+TreasureRoom	EmptyAzkabanRoom	VoldemortRoom	TreasureRoom	EmptyAzkabanRoom
+GoblinsRoom	EmptyAzkabanRoom	FindWandRoom	TreasureRoom	BoggartsRoom
 EmptyAzkabanRoom	FindShieldRoom	TreasureRoom	WerewolvesRoom	TreasureRoom
-Enemy.BoggartsRoom	TreasureRoom	StartingRoom	TreasureRoom	FindInvisibilityCloakRoom
+BoggartsRoom	TreasureRoom	StartingRoom	TreasureRoom	FindInvisibilityCloakRoom
 TreasureRoom	EmptyAzkabanRoom	DementorsRoom	EmptyAzkabanRoom	EmptyAzkabanRoom

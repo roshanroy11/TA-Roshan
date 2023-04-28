@@ -1,10 +1,12 @@
 public class LootRoom extends MapTile{
     protected Item item;
+    private Weapon weapon;
 
     public boolean pickedItem = false;
 
     public LootRoom(int x, int y, Item item) {
         super(x, y);
+        this.weapon = weapon;
         this.item = item;
     }
 
@@ -19,6 +21,5 @@ public class LootRoom extends MapTile{
         } else {
             System.out.printf("The item %s is already picked \n", item.name);
         }
-
     }
 }

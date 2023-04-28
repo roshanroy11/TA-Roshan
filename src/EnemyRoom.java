@@ -12,4 +12,5 @@ public class EnemyRoom extends MapTile{
         }
     }
 
+
 }

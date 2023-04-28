@@ -13,10 +13,8 @@ public class WerewolvesRoom extends EnemyRoom{
     public void modify_player(Player player) {
         if (labrador.is_alive()) {
             player.hp = (short) (player.hp - labrador.damage);
-
             System.out.printf("The Enemy you are facing does %d Damage. You have %d Health Remaining...", labrador.damage, player.hp);
-
-
         }
     }
+
 }
